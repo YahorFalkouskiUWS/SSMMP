@@ -1,0 +1,175 @@
+Wariant 1:
+
+Zadanie 1:
+Zaprojektuj program do zarządzania systemem zamówień w restauracji. Restauracja ma menu, które zawiera wiele dań z cenami. Każde zamówienie składa się z kilku dań. Klienci składają zamówienia, a każde zamówienie jest obsługiwane przez konkretnego kelnera. Program powinien umożliwiać:
+
+Dodawanie nowych dań do menu restauracji.
+Dodawanie nowych kelnerów do obsługi zamówień.
+Składanie zamówień przez klientów.
+Wyświetlanie listy dań wchodzących w skład danego zamówienia.
+Obliczanie całkowitej wartości zamówień obsłużonych przez danego kelnera.
+
+
+Zadanie 2:
+Napisz metodę, która zwróci tablicę zawierającą pary liczb (a, b), gdzie a pochodzi z tablicy t1, b z tablicy t2, a indeksy są nieparzyste, a suma a + b jest liczbą pierwszą.
+
+Przykład:
+
+tab1 = [3, 8, 5, 11, 7]; tab2 = [17, 4, 9, 6, 13];
+
+Odpowiedź: tab3 = [{8, 4}, (11, 6)]
+
+
+Zadanie 3:
+Zaimplementuj metodę, która zwróci tablicę t3 zawierającą liczby pierwsze z tablicy t1, których suma z odpowiadającymi liczbami z tablicy t2 jest liczbą pierwszą.
+
+Przykład:
+
+t1 = [2, 5, 7, 11, 17]; t2 = [6, 10, 4, 12, 13];
+
+Odpowiedź: t3 = [2, 7, 11]
+
+
+
+
+
+Wariant 2:
+
+Zadanie 1:
+Stwórz program do zarządzania systemem rezerwacji lotów. Linie lotnicze mają nazwę, kod i bazę operacyjną. Każdy lot ma numer lotu, datę, czas odlotu i przylotu, miejsce odlotu i przylotu oraz liczbę dostępnych miejsc. Program powinien umożliwiać:
+
+Dodawanie nowych linii lotniczych do systemu.
+Rezerwowanie biletów lotniczych na konkretne loty.
+Wyświetlanie listy dostępnych lotów na danej trasie i w danym przedziale czasowym.
+Obliczanie całkowitej liczby zarezerwowanych biletów dla danej linii lotniczej.
+
+
+Zadanie 2:
+Stwórz metodę, która zwróci tablicę par (a, b), gdzie a i b pochodzą z tablicy t1, a ich indeksy tworzą ciąg arytmetyczny o różnicy d, a suma a + b jest liczbą pierwszą.
+
+Przykład:
+
+tab1 = [2, 5, 8, 11, 14]; tab2 = [7, 10, 13, 16, 19]; d = 3;
+
+Odpowiedź: tab3 = [{2, 8}, (5, 11), (8, 14)]
+
+
+Zadanie 3:
+Dane są dwie tablice jednowymiarowe t1 i t2 o rozmiarach n. Napisz metodę, która zwróci tablicę t3 liczb pierwszych znajdujących się w pierwszej tablicy t1, takich, że liczby te są mniejsze od liczby znajdującej sie na tej samej pozycji w tablicy drugiej t2. Przykład:
+
+t1= [3, 12, 11, 13, 23]; t2= [14, 10, 10, 16, 12];
+
+Odpowiedź: t3 = [3, 13]
+
+
+
+
+
+Wariant 3:
+
+Zadanie 1:
+Zaprojektuj program do zarządzania biblioteką. Książki mają tytuł, autora i rok wydania. Biblioteka zawiera wiele książek. Użytkownicy mogą wypożyczać książki, a każde wypożyczenie może dotyczyć jednej lub więcej książek. Utwórz diagram klas i napisz program, który umożliwia:
+
+Dodawanie nowych książek do biblioteki.
+Dodawanie nowych użytkowników biblioteki.
+Wypożyczanie książek przez użytkowników.
+Wyświetlanie listy książek wypożyczonych przez danego użytkownika.
+Obliczanie całkowitej liczby wypożyczonych książek przez użytkownika.
+
+
+Zadanie 2:
+Dane są dwie tablice jednowymiarowe t1 i t2 o rozmiarze n. Napisz metodę, która zwróci tablicę t3 takich par liczb a z tablicy t1 i b z tablicy t2, które występują na tych samych indeksach, indeksy są parzyste i dla których suma wynosi s. 
+
+Przykład:
+
+tab1 = [6, 2, 1, 12, 11]; tab2 = [14, 10, 19, 8, 12]; s=20;
+
+Odpowiedź: tab3 = [{6, 14}, {1, 19}]
+
+
+Zadanie 3:
+Stwórz metodę, która zwróci tablicę t3 zawierającą liczby pierwsze z tablicy t1, które są mniejsze od wartości w tablicy t2 na tych samych indeksach i mają indeksy będące liczbami pierwszymi.
+
+Przykład:
+
+t1 = [17, 8, 11, 5, 19]; t2 = [6, 10, 12, 9, 20];
+
+Odpowiedź: t3 = [5, 19]
+
+
+
+
+
+Wariant 4:
+
+Zadanie 1:
+Zadanie polega na utworzeniu diagramu klas i napisaniu programu opisującego sprzedaż w hurtowni chemicznej. Zakup w hurtowni może być dokonany przez sklepy posiadające nazwę i adres. Każdy zakup może obejmować wiele produktów. Produkt charakteryzowany jest przez nazwę oraz cenę. Ze strony hurtowni w procesie sprzedaży uczestniczy konkretny pracownik opisany przez imię i nazwisko. Program musi umożliwiać:
+
+Dodanie sklepu do aplikacji
+dodanie pracownika hurtowni do aplikacji
+dodanie towarów do hurtowni
+dokonanie zakupu wielu towarów przez sklep u danego pracownika
+wypisanie listy wszystkich towarów kupionych przez dany sklep 
+wypisanie sumy cen wszystkich towarów kupionych przez dany sklep
+
+
+Zadanie 2:
+Napisz metodę, która zwróci tablicę zawierającą pary (a, b), gdzie a pochodzi z tablicy t1, b z tablicy t2, a suma a + b jest liczbą pierwszą, a jednocześnie indeksy są liczbami pierwszymi.
+
+Przykład:
+
+tab1 = [2, 4, 6, 8, 10]; tab2 = [1, 3, 5, 7, 9];
+
+Odpowiedź: tab3 = [{2, 1}, (8, 7)]
+
+
+Zadanie 3:
+Napisz metodę, która zwróci tablicę t3 zawierającą liczby pierwsze z tablicy t1, które są mniejsze od wartości w tablicy t2 na tych samych indeksach i mają parzysty indeks.
+
+Przykład:
+
+t1 = [2, 10, 3, 7, 13]; t2 = [5, 8, 12, 9, 15];
+
+Odpowiedź: t3 = [2, 3, 13]
+
+
+
+
+
+Wariant 5:
+
+Zadanie 1:
+Stwórz program do zarządzania listą zadań w projekcie. Projekt może składać się z wielu zadań, z których każde ma tytuł, opis, status i przypisanego wykonawcę. Program powinien umożliwiać:
+
+Dodawanie nowych zadań do projektu.
+Przypisywanie wykonawców do zadań.
+Aktualizowanie statusu zadań (np. "do zrobienia", "w trakcie", "zrobione").
+Wyświetlanie listy zadań przypisanych do konkretnego wykonawcy.
+Obliczanie całkowitej liczby zadań w różnych statusach (np. "do zrobienia" i "zrobione").
+
+
+Zadanie 2:
+Zaimplementuj metodę, która zwraca tablicę trójek (a, b, c), gdzie a pochodzi z tablicy t1, b z tablicy t2, c z tablicy t1, indeksy są równe i suma a + b + c jest liczbą parzystą.
+
+Przykład:
+
+tab1 = [2, 4, 6, 8, 10]; tab2 = [1, 3, 5, 7, 9];
+
+Odpowiedź: tab3 = [{2, 1, 6}, (4, 3, 8), (6, 5, 10)]
+
+
+Zadanie 3:
+Zaimplementuj metodę, która zwraca tablicę t3 zawierającą liczby pierwsze z tablicy t1, które są większe od wartości w tablicy t2 na tych samych indeksach.
+
+Przykład:
+
+t1 = [7, 12, 5, 9, 11]; t2 = [4, 10, 3, 8, 7];
+
+Odpowiedź: t3 = [7, 11]
+
+
+
+
+
+
+
